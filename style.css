@@ -1,0 +1,88 @@
+body,
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Header */
+
+/* .header {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background: rgb(127, 127, 127);
+  position: relative;
+}
+.header-content {
+  flex: 1;
+  padding: 5px 10px;
+}
+.articles {
+  position: absolute;
+  right: 0;
+} */
+
+/* Background Images */
+
+.background img {
+  width: 100%;
+  height: auto;
+}
+
+/* Profile Image */
+
+.photo-background {
+  text-align: center;
+  transform: translateY(-50%);
+}
+.photo-background img {
+  border-radius: 50%;
+  width: 30%;
+  height: auto;
+  border: 8px solid white;
+}
+
+/* NAME */
+
+.name {
+  font-variant: small-caps;
+  text-align: center;
+}
+.intro {
+  font-variant: small-caps;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+
+/* .contact {
+  margin-top: 5px;
+} */
+
+.shift {
+  transform: translateY(-70%);
+}
+@media only screen and (max-width: 1100px) {
+  .shift {
+    transform: translateY(-130px);
+  }
+  .photo-background img {
+    width: 40%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 625px) {
+  .shift {
+    transform: translateY(-90px);
+  }
+  .photo-background img {
+    width: 50%;
+    height: auto;
+  }
+}
